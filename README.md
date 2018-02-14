@@ -12,12 +12,13 @@ You might need to edit the script for updating credentials.
 
 ```
 $ cd /path/to/git/repo
-$ /path/to/gitlog2changelog.sh
+$ /path/to/gitlog2changelog.sh -c
+$ /path/to/gitlog2changelog.sh -r -p path/on/artifactory
 ```
 
 Two files are generated:
 
-* VERSIONS-generated.md
 * CHANGELOG-generated.md
+* VERSIONS-generated.md
 
 Combine them as it makes sense in your projects to one file: `CHANGELOG.md`
